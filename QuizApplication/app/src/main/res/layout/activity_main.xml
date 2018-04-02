@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jinliyu.quizapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="164dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="123dp"
+        android:onClick="clickhandle"
+        android:text="Login"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwTxt" />
+
+    <EditText
+        android:id="@+id/usernameTxt"
+        android:layout_width="229dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="42dp"
+        android:layout_marginTop="133dp"
+        android:ems="10"
+        android:hint="Please input username"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/pwTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pwTxt"
+        android:layout_width="224dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:hint="Please input password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/loginbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTxt" />
+</android.support.constraint.ConstraintLayout>
