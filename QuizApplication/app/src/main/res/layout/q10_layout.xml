@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="22dp"
-        android:text="10. What happens when thread's yield() method is called?"
+        android:text="10. What is the default value of float variable?"
         android:textColor="#000000"
         />
 
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Thread returns to the ready state."
+            android:text="0.0d"
             android:textSize="18dp"
             android:layout_marginTop="10dp"/>
 
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Thread returns to the waiting state."
+            android:text="0.0f"
             android:textSize="18dp"
             android:layout_marginTop="10dp"/>
 
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Thread starts running."
+            android:text="0"
             android:textSize="18dp"
             android:layout_marginTop="10dp"/>
 
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="None of the above."
+            android:text="not defined"
             android:textSize="18dp"
             android:layout_marginTop="10dp"/>
 
